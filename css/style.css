@@ -1,0 +1,411 @@
+#lyaout{
+    background-color: #f0f8ff;
+}
+
+/*----------------Seccção 1-------------------*/
+section header div a img{
+    width: 30px;
+}
+section header nav a, section main div a{
+    color: #0099e3;
+    transition: 0.3s;
+}
+#menu a:hover{
+    color: #f0f8ff;
+    background-color: #0099e3;
+    padding: 4px;
+    box-shadow: 0px 0px 10px #0099e3;
+    border-radius: 5px;
+}
+#menu-mobile a:hover{
+    color: #f0f8ff;
+}
+/*Menu Mobile*/
+.menu-mobile, #btn-menu{
+    display: none;
+}
+.menu-mobile{
+    background-color: hsla(190, 61%, 65%, 0.098);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 0px;
+    backdrop-filter: blur(10px);
+    display: block;
+    border-radius: 0px 0px 15px 15px;
+    visibility: hidden;
+    transition: 0.4s;
+    overflow: hidden;
+}
+/*---------------Main--------------------*/
+section main{
+    width: 100%;
+    height: 80vh;
+}
+section main div p, section main div h1{
+    margin: 0;
+    color: #0087c9;
+    font-weight: bold;
+}
+section main div h1 span{
+    color: #f0f8ff;
+    border: 1px solid #0087c9;
+    background-color: #0087c9;
+    border-radius: 6px;
+    padding: 6px;
+}
+section main div a{
+    color: #0087c9;
+    transition: 0.3s;
+    margin-top: 7px;
+
+}
+section main div a:hover{
+    color: #f0f8ff;
+    border: 1px solid #0087c9;
+    background-color: #0087c9;
+    border-radius: 7px;
+}
+.img1{
+    width: 250px;
+    margin: 1.2px 0px 5px 1.2px;
+    animation-name: img_1;
+    animation-duration: 5s;
+}
+.img2{
+    width: 310px;
+    margin: 1.2px 0px 5px 1.2px;
+    animation-name: img_1;
+    animation-duration: 5s;
+}
+.img3{
+    width: 370px;
+    margin: 1.2px 0px 5px 1.2px;
+    animation-name: img_1;
+    animation-duration: 5s;
+}
+.img4{
+    width: 310px;
+    margin: 1.2px 0px 5px 1.2px;
+    animation-name: img_1;
+    animation-duration: 5s;
+}
+.img5{
+    width: 250px;
+    margin: 1px 0px 8px 1px;
+    animation-name: img_1;
+    animation-duration: 5s;
+}
+@keyframes img_1 {
+    0%{
+        margin: 0;
+    }
+    100%{
+        margin: 1.2px 0px 5px 1.2px;
+    }
+}
+/*----------------------------------------*/
+
+
+/*----------------Seccção 2-------------------*/
+#sobre_mim div img{
+    width: 280px;
+}
+#sobre_mim div p{
+    text-align: justify;
+    width: 500px;
+}
+#sobre_mim div h1{
+    color: #0087c9;
+    border-bottom: 2px solid #0087c9;
+}
+.dados_pessoais{
+    border: 2px solid #0087c9;
+    border-radius: 10px;
+}
+.dados_pessoais ul li, .dados_pessoais ul{
+    color: #0087c9;
+    list-style: none;
+}
+#sobre_mim div button{
+    color: #f0f8ff;
+    transition: 0.3s;
+    margin-top: 7px;
+    background-color: #0087c9;
+    border: 1px solid #0087c9;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 80px;
+}
+/*----------------------------------------*/
+
+
+/*----------------Seccção 3-------------------*/
+#habilidades{
+    background-color: #0099e3;
+    height: max-content;
+    width: 100%;
+}
+
+#formacoes div article{
+    background-color: #f0f8ff;
+    border: 1px solid #f0f8ff;
+    width: 380px;
+    height: 200px;
+    border-radius: 15px;
+    transition: 0.5s;
+    margin: 10px;
+}
+#formacoes div article:hover{
+    box-shadow: 0px 0px 10px #f0f8ff68;
+    transform: scale(1.02);
+}
+#formacoes div article div img{
+    width: 105px;
+}
+#formacoes div article div h1{
+    color: #0087c9;
+    font-size: 16px;
+    text-wrap: wrap;
+}
+#formacoes .line-y{
+    width: 2px;
+    height: 130px;
+    background-color: #0087c9;
+}
+#formacoes div article div p{
+    color: #f0f8ff; 
+    background-color: #0087c9;
+    border: 1px solid #0087c9;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 12px;
+}
+/*---------------*/
+.more article{
+    background-color: #f0f8ff;
+    border-radius: 23px;
+    width: 300px;
+    height: 285px;
+    transition: 0.3s;
+}
+.more article:hover{
+    box-shadow: 0px 0px 10px #f0f8ff68;
+    transform: scale(1.01);
+}
+.more article div img{
+    width: 70px;
+    text-align: center;
+}
+.more article h1{
+    color: #0099e3;
+    font-size: 25px;
+    margin-top: 8px;
+}
+.more article p{
+    color: #0087c9;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: bold;
+}
+.more article a{
+    color: #f0f8ff;
+    background-color: #0099e3;
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.more article a:hover{
+    background-color: #0275ae;
+}
+
+/*----------------Seccção 4-------------------*/
+.form{
+    width: 50%;
+}
+#email, #mensagem{
+    background-color: white;
+    width: max-content;
+    height: max-content;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    padding: 7px 0px 7px 25px;
+    width: 100%;
+    transition: 0.4s;
+
+}
+.form form input{
+    background-color: white;
+    width: max-content;
+    height: max-content;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    padding: 7px 0px 7px 25px;
+    width: 60%;
+    transition: 0.4s;
+}
+.form form input:hover, #email:hover, #mensagem:hover{
+    border: 1px solid #0087c9;
+}
+.form form input:focus, textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.form form button{
+    background-color: white;
+    width: 30%;
+    height: max-content;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    padding: 7px;
+    color: black;
+    transition: 0.4s;
+}
+.form form button:hover{
+    background-color: #0087c9;
+    color: white;
+}
+/*-------------------Secticon 5--------------------*/
+#competencias{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#competencias article{
+    width: 200px;
+    height: 60px;
+    background-color: #0087c9;
+    border-radius: 6px;
+    margin: 10px;
+}
+#competencias article div img {
+    width: 40px; 
+}
+#competencias article div h1 {
+    font-size: 18px;
+    color: #f0f8ff;
+}
+/*-------------------Footer--------------------*/
+.img_4{
+    width: 500px;
+}
+.form div h3, .form div p{
+    color: #0099e3;
+}
+footer{
+    text-align: center;
+}
+footer div img{
+    width: 30px;
+    transition: 0.3s;
+}
+footer div p, footer div p a{
+    color: #0099e3;
+    font-size: 14px;
+}
+.midias a img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #f0f8ff68;
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    /*Menu Mobile*/
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .menu-mobile.abrir-menu{
+        visibility: visible;
+        height: 230px;
+    }
+    .menu-mobile a{
+        transition: 0.3s;
+        border: 1px solid transparent;
+        width: 100%;
+        margin-bottom: 4px;
+        font-size: 17px;
+        padding: 5px;
+        display: block;
+    }
+    .menu-mobile a:hover{
+        border: 1px solid hsla(200, 100%, 45%, 0.408);
+        background-color: hsla(200, 100%, 45%, 0.408);
+        width: 100%;
+    }
+    #btn-menu{
+        display: block;
+    }
+   /*btn-menu*/
+   section header button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+   }
+   .linha{
+    width: 30px;
+    height: 2px;
+    background-color: #0099e3;
+    display: block;
+    margin: 5px auto;
+    transform-origin: center;
+    border-radius: 1px;
+    transition: 0.3s;
+   }
+   section header button.ativar .linha:nth-child(1){
+    transform: translateY(1px) rotate(-40deg);
+    background-color: #ef5151;
+   }
+   section header button.ativar .linha:nth-child(2){
+    display: none;
+   }
+   section header button.ativar .linha:nth-child(3){
+    transform: translateY(-7px) rotate(40deg);
+    background-color: #ef5151;
+   } 
+    /*----------*/
+    section main{
+    height: 88vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    #sobre_mim div p, .dados_pessoais{
+    width: 350px;
+    }
+    #sobre_mim div h1, #sobre_mim div h5{
+    text-align: center;
+    }
+    .img_2{
+        width: 310px;
+    }
+    .form form input{
+    width: 100%;
+}
+    .img_4{
+        width: 300px;
+        margin-top: 10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center
+    }
+}
